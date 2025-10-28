@@ -35,4 +35,4 @@ This repository contains three complementary computational pipelines for advance
 - **GRN Perturbation:** 
   - scRNA-seq: Pancreas development data from scVelo
   - scATAC-seq: Mouse chromatin accessibility atlas
-- **Trajectory Inference:** Developing pancreas scRNA-seq from GEO accession [GSE122662](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122662)
+- **Trajectory Inference:** Reconstructs developmental trajectories and pseudotemporal ordering of cells from [GSE122662](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122662) during cellular reprogramming.

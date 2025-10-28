@@ -18,7 +18,7 @@ This repository contains three complementary computational pipelines for advance
 - **scATAC-seq:** Mouse single-cell ATLAS base GRN (`celloracle.data.load_mouse_scATAC_atlas_base_GRN()`)
 
 **Key Objects:**
-- `links_object.celloracle.links` - Contains gene regulatory network connections (TF → target gene relationships)
+- `links_object.celloracle.links` - Contains Gene Regulatory Network connections (TF → target gene relationships)
 - `my_oracle.celloracle.oracle` - Main analysis object storing GRN model and perturbation simulations
 
 **Description:** Models transcription factor perturbations and predicts downstream effects on cell identity and state transitions.

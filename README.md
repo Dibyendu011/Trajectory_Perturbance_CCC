@@ -1,6 +1,6 @@
 # Single-Cell Multi-Omics Analysis Toolkit
 
-This repository contains three complementary computational pipelines for advanced single-cell RNA sequencing analysis, covering cell-cell communication, gene regulatory network perturbation, and trajectory inference.
+This repository contains three independent computational pipelines for advanced single-cell RNA sequencing analysis, covering cell-cell communication, gene regulatory network perturbation, and trajectory inference.
 
 ## Analysis Modules
 

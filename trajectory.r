@@ -277,6 +277,14 @@ plot_cells(cds_subset, genes = c("Rpl7a", "Eef1a1", "Mgst1", "Lgals1"),
            show_trajectory_graph = FALSE,
            label_cell_groups = FALSE,
            label_leaves = FALSE)
+
+# The code above allows us to make a subset of cells from the trajectory. 
+# The expression of genes in this subset may or may not have spatial correlation (spatial wrt UMAP coordinates). 
+# We want to see expression of only spatially variable genes. 
+# So for each gene, morans test 1 is done across all cells in the subset connected by the trajectory. 
+# Then we can filter out genes based on a p-value & q-value. 
+# The selected genes have spatial correlation on the trajectory graph. 
+# This helps us visualise gene expression pattern of spatially correlated genes only across all cells in our subset that are connected by one trajectory graph.
            
 # Create a subset containing only specific genes of interest
 cds_subset_subset = cds_subset[rowData(cds_subset)$gene_short_name %in% c("Rpl7a", "Eef1a1", "Mgst1", "Lgals1")]
